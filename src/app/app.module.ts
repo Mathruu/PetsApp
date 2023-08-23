@@ -9,6 +9,7 @@ import { MainComponent } from './main/main.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CachorroComponent } from './cachorro/cachorro.component';
 import { GatoComponent } from './gato/gato.component';
+import { PassaroComponent } from './passaro/passaro.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { GatoComponent } from './gato/gato.component';
     FooterComponent,
     MainComponent,
     CachorroComponent,
-    GatoComponent
+    GatoComponent,
+    PassaroComponent
   ],
   imports: [
     BrowserModule,

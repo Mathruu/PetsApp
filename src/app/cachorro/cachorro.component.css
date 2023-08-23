@@ -9,3 +9,11 @@
 .text-custom-color {
     color: #28a745;
 }
+
+.zoomable {
+    transition: transform 0.3s ease; 
+}
+
+.zoomable:hover {
+    transform: scale(1.1);
+}
